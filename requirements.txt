@@ -1,0 +1,7 @@
+gspread
+google-auth
+docxtpl
+num2words
+pandas
+openpyxl
+docx2pdf

@@ -40,8 +40,9 @@ It’s designed to run automatically (e.g., daily at midnight) using **cron jobs
 >cd donation-certificate
 
 # Create virtual environment
->python3 -m venv venv
->source venv/bin/activate  # (use venv\Scripts\activate on Windows)
+python3 -m venv venv
+source venv/bin/activate
+# (use venv\Scripts\activate on Windows)
 
 # Install dependencies
 pip install requests pandas openpyxl

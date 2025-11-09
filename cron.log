@@ -1,0 +1,608 @@
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1urlGzNujlfi4LSzTRx2sRGwnPbWhQnYw/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/115QzeibKE4lj9ELt206TqLuqyLfm0tuT/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1RYp30eksdN3Y2H5c1MdGXvcoDsaR2el_/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1TTjLDC6MlNjZ39GRLI55Y188NrtYAYev/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1QSOMQIb3DlOoIokcPeTMRY1NHxzwPrLE/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1Jf17PPSlVeXVGo_3CrHtCpgjgr1olb2k/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+❌ HTTP ERROR: 429
+   ⚠️  Rate limited. Waiting 10 seconds...
+✅ RETRY SUCCESS: PDF created
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/13L19KK153uaa2btj47l881cFxqkc85KK/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+❌ HTTP ERROR: 429
+   ⚠️  Rate limited. Waiting 10 seconds...
+✅ RETRY SUCCESS: PDF created
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1IlUK6MnrwgVgb0peKWYOSbRYhOp06rC3/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/17MoAKLZoI0hC4Gp1IeOeFAgwGyGcBV7I/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1T7zh-qasQIKMLbC_GP9LDqvJ4O9nsC4L/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1fXulMrF5PKsd-kS1C_3D7bPNrm39uVzH/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1jc0hJ7tRLRJ9uqomAYQvs9V0zQrEDkeM/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1bzZmXQevAzNHe_G4-ccB_nHci-fBkXhk/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1V4H9zGkG6Lr0j62jih4nQIuBwnXBBn-w/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+❌ HTTP ERROR: 429
+   ⚠️  Rate limited. Waiting 10 seconds...
+✅ RETRY SUCCESS: PDF created
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1z_9PYsUy5JyJWMJdwURicGpjBTXKVu4S/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1P8F0b6KbjQHttn5gDNq3LL2-wNQoV6H7/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1jemQkJT12K-6R_wojPwdcaSpkJTzVVIt/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+❌ EXCEPTION: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=60)
+
+📊 SUMMARY: 2 successful, 1 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1myHAk1ddyUc8ZeJYuUvAyrx69hy1dgwU/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1VZQz29C3y0v4OaWdRPA03Fd4Jl_6HMDB/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1wqknZo59UbmxjpoHogj9aaDDx-prkMCd/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1ut2jWJR4-REZAi56vc_6-xTw6290Tp7r/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1kH3ybTFhz7VYV5DbktlXn_qAq-f1-pfC/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1nt4L0FhF1Wulg0qg0M9yvbWPu6hWbCQ0/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1J-7aMHT-_vo_4SZhpkQKS30IzUtb3Tsf/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+❌ EXCEPTION: HTTPSConnectionPool(host='script.googleusercontent.com', port=443): Read timed out. (read timeout=60)
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1OiuEyMeOmR9ox_cmE36sWuJjUbYVz8qm/view?usp=drivesdk
+
+📊 SUMMARY: 2 successful, 1 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1pw2fgb2fCUTu4yjVWyI2y1V93j96j6gC/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1o6LzjXfJDKOQ39umPLxaK0XVqQL4eo7y/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1CCscqRVwUc-Hb1BPyC1UhuFNRXMzgWxl/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1xL8MMTiDXE7yaQWvIw5WKFgkfTWoNQRu/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1gyjU-QkwL_j94_gQABB3ruywdFFcy4R9/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1EXsbyc80x69_ypOaqelbaTJsBHLZAjDD/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1nbjEBFzpD8jnrgCBLo7vgkXyDb6meMtU/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/11wYJoCBK4fakPP17Ycc3-phQiOJw4Irm/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1YyNSrbJbClFVae-0IPr75srcy3OVqdZT/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1NggIHWz3VqA8avXfG5JwXZLFJO5VkDq2/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1_leR172ysdACKDIEOW86YNWdYHQGdwWE/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1e4WVW5oA2ZibIONRkivMeib992eNlBW9/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/14TRoUVFDUqYfKiyNHJxq-KAP9GoXIING/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/17tV5iCDjXZQUh0D3cTq6B6HhZ2fMNdAD/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1a2mbd9T2xkMQ4GKIV0Xe2JXwggV-V4dE/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/19OX7F7IB1qpyu4UuRxdkgN1jShfs0lQc/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1Bj-b8zUjIG76kKz7rdOpdFhi0NHpRshq/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1jxh0emR0a7EkSXg7iqULn_M1zlio9gpX/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/18-LFhzbfXWbgZxupstcYahwkM3EnE7Dc/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1mUSERZ1k0TWeBtghkcocOtTlfgASK4zK/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1TYIb43d0OqmOktd4kQES3p0zg-BBEQDN/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1GI9sV23petPAcIzylepdUfCdMoA-Ue9N/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1-I_Et8ni16iH3VWs-KedGooGImeFpVwR/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1IfkFcXSBhGUPgLDDzb7luzGveEMeaaVC/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/19GAfPbabqK-UG9v9OHV3wj6AFKM91Jqm/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1lBALoY1IsLH34tb_gGjeffwXzhAkOIj5/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1H-PdAfDFgLGbUN8f6iM80uGXdMjXlwK8/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1-1BQ5QF0dhzJ9czFOTB4kYbWo8yWswCv/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1XGeT2tFpRCLU5e6lsTa7rmbrIBSvMiPx/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1GV82aBYzhDgEEeIW5IZtwe4C0s73BaoT/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1PzwuASkTauXn2hj4oyEuDGAr3aJFiqNt/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1oLAIf7LfwWZ8iz4lY6N_QMV98VVPRZCO/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1QcxBSIhoymmOy1mmaH8Q75dFI9w0sLS-/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1_rpIy6AG9x23W80BdR7nsiym3oVCHsQc/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1AKfB22TNtTwjUto9gJxPNur2DKnzOgBJ/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1GclbtzoWdX_SJdEKBK8oNdHwEHUfFz6v/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1E9I4buZRw5trjVin0Nt6wUGlVKBWYGue/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1RjRE5Qk9VbvEAbSu3k7HhJqNFzu3Xeqo/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1WuD5j9yFO2Ci-uKQEk4LbunWDaOqBWdd/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1i4GDcHPdgokvzIgQoheIMq50KXIm9kES/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1jvtdIESs5yCHQWrnpWNtOj3o0amN9wOM/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1V-F7tKII-ENAUkiRyFUzLCSn-D0D1EM8/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1ayCr-hmPKK_7KLWbyLPWq6O99k8z0erq/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1A6Llee9QRTy3W-ryCixnPEBpGoEGlAEs/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1RincCn5jzuR1oLmdKFz9vSRXY7kt-CzA/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1gPXh0Gn4FAaHrleSMjdMU2hf158a_DjL/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1maJxr0FugTMACl5hElMRBC-mhFGsB8a0/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1L2yQsIhZId8JyXTOq4Le4NRUvrzYm4rg/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1cVVR8TtCxr_a3QJQlupRrf_uhBWHjR6q/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1l0H8NWPzcy0Eq6I6FQ9J1FmFvYJCZmNM/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1T6Y8PlK2fB239EwZJfE1-EXCdiUXTbBl/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1jAXdIcqFx7m2LynGx_tmgmAXsYVx95Qg/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1jiapMWFZUBZcko2Oy0OHRwjhecrVk4Dp/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1-RlIe7LMW6swSgWaeSq55RcZ8MR98NcS/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1QG_spwljdGqUgao2qLQCrbBt2wRz-dJY/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1aMVwZV96XpM9-XyD2uozjIK0LIwSIdKI/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/10WZ7CUH1bbGYYV-HqFnpncRqDxr-tC8u/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/17HiRL4cUPJPgbFOgKwuIqQuSaGN20DXi/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1B2y8V6lspMxBCT7L5ravVnRPkUWY6xe1/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1QjhhMYgAaVx1pRupQQcbISfYPZNjcyid/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1HNcY9b5NMHCsV9vqX_UworOAruTAN5Zc/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1UvT7L-6dnE35uSZYWI2vkkegBE-2Y-0v/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/19d3Lj5zWsWrYrYh673sjJXXWdl39xmfR/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1Ikg2YAmDWTZDokB56LzCBNTow0e3j4Hb/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1U5h1-or6tUqUqPRLVWT-6wuX0LvGC9I2/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1iWqhE6h-PRJ3ZMlu31zu-7meK-k7Fd4x/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+❌ EXCEPTION: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=60)
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1ckPghGSdCO25OuIqLDFHFR3-pmQBqIl-/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/124wUxSTeyiPpYeLJiWNMpleZWfBk0LJu/view?usp=drivesdk
+
+📊 SUMMARY: 2 successful, 1 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1oiumP9sHom2rdhDm65vO0aK4yqIJwazV/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/10RjtJgkedGK7O96DMbQK_ItBXNbvvmiq/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1U1zuiBG6sO3nndBJMUm-fSvj_mIpPbIX/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1zcN_In3uYoE0IDWML_ShaGhij1rjV_TC/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1Ywrmm5fAAhwajfLyKqYOrMZst5Y75Q9C/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1zboe7rzKfaSHuHQLdfjgElf0ocGhvj2t/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1GauVb4P-JPb1lD-yrqMuLBbWs73zNhM1/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1DHy346Andn1GxS2q2K2H8wCkd0tfew4I/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1gHn8P7edcM0cPl_6lhhWNJV9YcaOLHsH/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1eqNQnxAoUBNa4d49V9K9VnSZBuDx3aMf/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1F15CuS0CmpvpMtG3b5CtijawJzVcHCMW/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1Wb0OWg_dgVShZGrAvcM115roW1JSkEtk/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1d_fulMjg-aPhL5m06OVrHsnw8u-U8QD3/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/19Q41Wccjvu32HP9s90sq9KRz1b466Qhy/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1a9m64DjqNHLWDJevv8jW4qiT20wTaYDg/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1hzf8nZGWvl3cRcZDNQG96x2DJsOJ-LYN/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1EpRsDhjlCawRaueKW8Ha9gdSgkgCvj8g/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1cfTjL3LrdGfM1eOeAxs8LPYGSA-BdPbI/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/18PRofO3TSEx9Uf8vr0l74oEkk8w2kxU_/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1EodyCoRvDKk-5v_5ZoFFoDJOkMS6HreB/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1DjFxjicySRIlZbJ7Q2CZdiNxOVycLGEo/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1qa1My9wENmDjgSjT9UleXULKHzxe1B4o/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1luDM3Jl1GIMDmsYgDPbaN9iiyt5uLUQR/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1wScfUIDoQoMEpjxp0FWx36AcEE5sHrhF/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 12 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[9] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1MdQD2Y5gS2EZiAew98jzSk3JnCg9sm1r/view?usp=drivesdk
+
+[10] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1I3X_y5mQSx7inEfD9iqO4Rxgzo9qTs_K/view?usp=drivesdk
+
+[12] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1jXEzWkUKAR3da9w0QaA-oZI5fWj8tASl/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed
+Fetched 3 donor rows from sheet
+Unprocessed donors: 3
+Processing 3 unprocessed donor rows
+
+[1] Processing: NGA-05-25 - Rahul Mishra
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1eUrrR_lKEd9Wk83Mq6T2b31pC5qOriBb/view?usp=drivesdk
+
+[2] Processing: NGA-06-25 - Roshni Jha
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1oP4GjoceG5CXVbzsm09rcrLlpj0agg_w/view?usp=drivesdk
+
+[3] Processing: NGA-07-25 - Laxmi
+✅ SUCCESS: PDF created - https://drive.google.com/file/d/1XS0bV4bA1EzU4VVlCh9DssiFbtZPvBqp/view?usp=drivesdk
+
+📊 SUMMARY: 3 successful, 0 failed

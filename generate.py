@@ -1,119 +1,127 @@
-import os
-import re
 import requests
-from pathlib import Path
-from datetime import datetime
-from num2words import num2words
-from docxtpl import DocxTemplate
-import subprocess
-import shutil
 import pandas as pd
+import time
 
-# ---------- CONFIG ----------
-API_URL = "https://script.google.com/macros/s/AKfycbxvvE91tWxzYUzrrrZTcaNWHB4yYIGcZ7dxmRGYwYjP9OZteYrgaWeoCcDZHC3UMPFY/exec"  # replace this
-TEMPLATE_FILE = "template.docx"
-OUTPUT_EDITABLE_DIR = Path("output/Editable")
-OUTPUT_PDF_DIR = Path("output/PDF")
-# ----------------------------
-
-OUTPUT_EDITABLE_DIR.mkdir(parents=True, exist_ok=True)
-OUTPUT_PDF_DIR.mkdir(parents=True, exist_ok=True)
-
-USE_DOCX2PDF = True
-try:
-    from docx2pdf import convert as docx2pdf_convert
-except:
-    USE_DOCX2PDF = False
-
-def safe_filename(s):
-    s = re.sub(r'[\\/:"*?<>|]+', '', s)
-    return s.strip().replace(" ", "_")
-
-def amount_to_words(amount):
-    try:
-        n = int(float(amount))
-    except:
-        return f"INR {str(amount).strip()} Rupees"
-    words = num2words(n).replace(",", "").replace(" and", "").title()
-    return f"INR {words} Rupees"
-
-def convert_docx_to_pdf(docx_file, pdf_file):
-    if USE_DOCX2PDF:
-        try:
-            docx2pdf_convert(docx_file, pdf_file)
-            return True
-        except:
-            pass
-
-    soffice = shutil.which("soffice") or shutil.which("libreoffice")
-    if soffice:
-        try:
-            subprocess.run([soffice, "--headless", "--convert-to", "pdf", "--outdir", str(OUTPUT_PDF_DIR), docx_file], check=True)
-            return True
-        except:
-            return False
-
-    print("Install MS Word or LibreOffice to enable PDF conversion.")
-    return False
+# Your deployed Apps Script Web App URLs
+APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxublTrVVO3Of8sUJ-4M6UjXlncpS1yDe78UnpvNxDuo8o9o69xuD2XUs6Bgea1XxkI/exec"
+SHEET_API_URL = "https://script.google.com/macros/s/AKfycbxublTrVVO3Of8sUJ-4M6UjXlncpS1yDe78UnpvNxDuo8o9o69xuD2XUs6Bgea1XxkI/exec"
 
 def fetch_sheet_data():
-    res = requests.get(API_URL)
-    res.raise_for_status()
-    return pd.DataFrame(res.json())
+    """Fetch all data from Google Sheet"""
+    try:
+        res = requests.get(SHEET_API_URL)
+        res.raise_for_status()
+        df = pd.DataFrame(res.json())
+        print(f"Fetched {len(df)} donor rows from sheet")
+        return df
+    except Exception as e:
+        print(f"Error fetching sheet data: {e}")
+        return pd.DataFrame()
+
+def fetch_unprocessed_donors():
+    """Fetch only unprocessed or new donor rows (based on unique key)."""
+    df = fetch_sheet_data()
+    if df.empty:
+        return df
+
+    # Generate unique key for each row
+    df['ProcessedKey'] = df.apply(lambda r: f"{r['Serial_No']}_{r['Date']}_{r['Name']}", axis=1)
+
+    # Include only rows where Processed is blank OR ProcessedKey not marked yet
+    if 'Processed' in df.columns:
+        unprocessed_df = df[
+            (df['Processed'].isna()) |
+            (df['Processed'] == '') |
+            (df['Processed'] == 'NO') |
+            (~df['ProcessedKey'].isin(df['ProcessedKey'].where(df['Processed'] == 'YES')))
+        ]
+    else:
+        print("No 'Processed' column found. Processing all donors (first run).")
+        unprocessed_df = df
+
+    print(f"Unprocessed donors: {len(unprocessed_df)}")
+    return unprocessed_df
+
 
 def main():
-    df = fetch_sheet_data()
-    print(f"Fetched {len(df)} records")
-
+    # Fetch only unprocessed donors
+    df = fetch_unprocessed_donors()
+    
+    if df.empty:
+        print("No unprocessed donors found.")
+        return
+    
+    print(f"Processing {len(df)} unprocessed donor rows")
+    
+    successful = 0
+    failed = 0
+    
     for i, row in df.iterrows():
-        serial = str(row.get("Serial_No", "")).strip()
-        date_val = str(row.get("Date", "")).strip()
-        name = str(row.get("Name", "")).strip()
-        address = str(row.get("Address", "")).strip()
-        amount = row.get("Amount", "")
-        pan = str(row.get("PAN", "")).strip()
+        try:
+            # Prepare payload
+            payload = {
+                "Serial_No": str(row["Serial_No"]).strip(),
+                "Date": str(row["Date"]).strip(),
+                "Name": str(row["Name"]).strip(),
+                "Address": str(row["Address"]).strip(),
+                "Amount": str(row["Amount"]).strip(),
+                "Amount_in_words": "INR Two Thousand Five Hundred Rupees",
+                "PAN": str(row["PAN"]).strip(),
+            }
+            
+            print(f"\n[{i+1}] Processing: {payload['Serial_No']} - {payload['Name']}")
+            
+            # Send request to generate PDF
+            r = requests.post(APPS_SCRIPT_URL, json=payload, timeout=60)
+            
+            if r.status_code == 200:
+                response_data = r.json()
+                if response_data.get('status') == 'success':
+                    print(f"✅ SUCCESS: PDF created - {response_data.get('pdfUrl', 'URL not available')}")
+                    successful += 1
 
-        # Handle ISO like 2024-11-03T18:30:00.000Z
-        if "T" in date_val:
-            try:
-                dt = datetime.fromisoformat(date_val.replace("Z", ""))
-                date_val = dt.strftime("%d/%m/%y")
-            except:
-                pass
+        # Mark as processed in sheet
+                    mark_payload = {
+                        "function": "markAsProcessed",
+                        "serialNo": payload['Serial_No'],
+                        "date": "",
+                        "name": payload['Name']
+                    }
+                    requests.post(APPS_SCRIPT_URL, json=mark_payload)
 
-        # Handle YYYY-MM-DD
-        elif re.match(r'^\d{4}-\d{2}-\d{2}$', date_val):
-            dt = datetime.strptime(date_val, "%Y-%m-%d")
-            date_val = dt.strftime("%d/%m/%y")
+                else:
+                    print(f"❌ ERROR: {response_data.get('message', 'Unknown error')}")
+                    failed += 1
 
-
-        amount_words = amount_to_words(amount)
-
-        context = {
-            "Serial_No": serial,
-            "Date": date_val,
-            "Name": name,
-            "Address": address,
-            "PAN": pan,
-            "Amount_in_words": amount_words
-        }
-
-        doc = DocxTemplate(TEMPLATE_FILE)
-        doc.render(context)
-
-        base_name = f"{serial}_{name}" if serial and name else f"record_{i}"
-        safe_name = safe_filename(base_name)
-
-        docx_path = OUTPUT_EDITABLE_DIR / f"{safe_name}.docx"
-        pdf_path = OUTPUT_PDF_DIR / f"{safe_name}.pdf"
-
-        doc.save(docx_path)
-        print(f"✅ Saved DOCX: {docx_path}")
-
-        if convert_docx_to_pdf(str(docx_path), str(pdf_path)):
-            print(f"✅ Saved PDF: {pdf_path}")
-        else:
-            print(f"⚠️ PDF failed for {docx_path} — open Word & export manually")
+            else:
+                print(f"❌ HTTP ERROR: {r.status_code}")
+                if r.status_code == 429:
+                    print("   ⚠️  Rate limited. Waiting 10 seconds...")
+                    time.sleep(10)
+                    # Retry once
+                    r = requests.post(APPS_SCRIPT_URL, json=payload, timeout=60)
+                    if r.status_code == 200:
+                        response_data = r.json()
+                        if response_data.get('status') == 'success':
+                            print(f"✅ RETRY SUCCESS: PDF created")
+                            successful += 1
+                        else:
+                            print(f"❌ RETRY ERROR: {response_data.get('message', 'Unknown error')}")
+                            failed += 1
+                    else:
+                        print(f"❌ RETRY FAILED: {r.status_code}")
+                        failed += 1
+                else:
+                    failed += 1
+            
+            # Add a small delay to avoid overwhelming the server
+            time.sleep(2)  # Increased delay to avoid rate limiting
+            
+        except Exception as e:
+            print(f"❌ EXCEPTION: {e}")
+            failed += 1
+    
+    print(f"\n📊 SUMMARY: {successful} successful, {failed} failed")
 
 if __name__ == "__main__":
     main()

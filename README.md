@@ -82,8 +82,8 @@ If your script is named certificate.py, then its full path is:
 
 
 ✅ Example:
-If pwd returns /home/sama/DonationAutomation,
-then full script path = /home/sama/DonationAutomation/certificate.py.
+If pwd returns /home/sama/
+then full script path = /home/sama/donation-certificate/generate.py.
 
 3️⃣ The log file path (optional but recommended)
 
@@ -91,7 +91,7 @@ You decide this one — it’s just a file where output and errors are saved.
 
 For example:
 
-/home/sama/DonationAutomation/certificate_log.txt
+/home/sama/donation-certificate/cron.log
 
 
 This is useful to check if the job actually ran and what it printed.
@@ -102,20 +102,20 @@ Let’s say:
 
 Python path = /usr/bin/python3
 
-Script path = /home/sama/DonationAutomation/certificate.py
+Script path = /home/sama/donation-certificate/generate.py
 
-Log file path = /home/sama/DonationAutomation/certificate_log.txt
+Log file path = /home/sama/donation-certificate/cron.log
 
 Then your cron line will be:
 
->0 0 * * * /usr/bin/python3 /home/sama/DonationAutomation/certificate.py >> /home/sama/DonationAutomation/certificate_log.txt 2>&1
+>0 0 * * * /usr/bin/python3 /home/sama/donation-certificate/generate.py >> /home/sama/donation-certificate/cron.log 2>&1
 
 # Add cron job
 crontab -e
 # Add this line:
 # Run every day at midnight
-0 0 * * * /Users/sama/donation-certificate/venv/bin/python /Users/sama/donation-certificate/generate.py >> /Users/sama/donation-certificate/cron.log 2>&1
-@reboot /Users/sama/donation-certificate/venv/bin/python /Users/sama/donation-certificate/generate.py >> /Users/sama/donation-certificate/cron.log 2>&1
+0 0 * * * /usr/bin/python3 /home/roshni/donation-certificate/generate.py >> /home/roshni/donation-certificate/cron.log 2>&1
+@reboot /usr/bin/python3 /home/roshni/donation-certificate/generate.py >> /home/roshni/donation-certificate/cron.log 2>&
 
 # Save and exit (Ctrl+O + Enter, then Ctrl+X)
 

@@ -84,7 +84,7 @@ def main():
                     mark_payload = {
                         "function": "markAsProcessed",
                         "serialNo": payload['Serial_No'],
-                        "date": "",
+                        "date": payload['Date'],
                         "name": payload['Name']
                     }
                     requests.post(APPS_SCRIPT_URL, json=mark_payload)
